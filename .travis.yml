@@ -5,10 +5,11 @@ node_js:
   - "node"
 install:       npm install
 script:
-  - npm test
   - gulp
 cache:
   directories:
     - node_modules
 notifications:
   email:       false
+after_success:
+  - firebase deploy --project bjurado-com --token $FIREBASE_TOKEN

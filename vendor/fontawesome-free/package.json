@@ -1,4 +1,13 @@
 {
+<<<<<<< HEAD
+=======
+  "_args": [
+    [
+      "@fortawesome/fontawesome-free@5.7.2",
+      "/Users/Work/IdeaProjects/brandonjurado.github.io"
+    ]
+  ],
+>>>>>>> bc1569968d4a94c85cf071eb62e1bbd9f5622f0a
   "_from": "@fortawesome/fontawesome-free@5.7.2",
   "_id": "@fortawesome/fontawesome-free@5.7.2",
   "_inBundle": false,
@@ -17,6 +26,7 @@
     "fetchSpec": "5.7.2"
   },
   "_requiredBy": [
+<<<<<<< HEAD
     "#USER",
     "/"
   ],
@@ -24,6 +34,13 @@
   "_shasum": "1498c3eb78ee7c78c5488418707de90aaf58d5d7",
   "_spec": "@fortawesome/fontawesome-free@5.7.2",
   "_where": "/Users/Brandon/Development/Personal/brandonjurado.github.io",
+=======
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.7.2.tgz",
+  "_spec": "5.7.2",
+  "_where": "/Users/Work/IdeaProjects/brandonjurado.github.io",
+>>>>>>> bc1569968d4a94c85cf071eb62e1bbd9f5622f0a
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.com",
@@ -32,7 +49,10 @@
   "bugs": {
     "url": "http://github.com/FortAwesome/Font-Awesome/issues"
   },
+<<<<<<< HEAD
   "bundleDependencies": false,
+=======
+>>>>>>> bc1569968d4a94c85cf071eb62e1bbd9f5622f0a
   "contributors": [
     {
       "name": "Brian Talbot",
@@ -56,7 +76,10 @@
     }
   ],
   "dependencies": {},
+<<<<<<< HEAD
   "deprecated": false,
+=======
+>>>>>>> bc1569968d4a94c85cf071eb62e1bbd9f5622f0a
   "description": "The iconic font, CSS, and SVG framework",
   "engines": {
     "node": ">=6"
