@@ -1,8 +1,12 @@
 <h1 align="center">
-  Brandon Jurado Personal Site
+  <a href="https://bjurado.com">Brandon's Resume</a>
 </h1>
 
+My Personal Website
+
 ## Usage
+
+Clone the source files of the repository and navigate into the repository's root directory. Run npm install and then run npm start which will open up a preview of the app in your default browser, watch for changes to core files, and live reload the browser when changes are saved. You can view the package.json file to see which scripts are included.
 
 #### npm Scripts
 
