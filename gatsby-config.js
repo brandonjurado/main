@@ -22,13 +22,13 @@ module.exports = {
         trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `sections`,
-        path: `${__dirname}/src/sections`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `sections`,
+    //     path: `${__dirname}/src/sections`,
+    //   },
+    // },
     `react-responsive`,
     `gatsby-plugin-mdx`,
     `gatsby-plugin-react-helmet`,

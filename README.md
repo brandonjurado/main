@@ -4,6 +4,8 @@
 
 My Personal Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/35613301-6095-4422-b4c1-3afa80ee0ca7/deploy-status)](https://app.netlify.com/sites/nervous-thompson-32148f/deploys)
+
 ## Usage
 
 Clone the source files of the repository and navigate into the repository's root directory. Run npm install and then run npm start which will open up a preview of the app in your default browser, watch for changes to core files, and live reload the browser when changes are saved. You can view the package.json file to see which scripts are included.
