@@ -7,7 +7,7 @@ import SVG from "./svg"
 import { UpDown, UpDownWide } from "../styles/animations"
 import styles from "../styles/override.css";
 // @ts-ignore
-import InterestsMDX from "../sections/interests"
+import InterestsMDX from "../sections/Interests"
 
 const Interests = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>

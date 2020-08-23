@@ -9,7 +9,7 @@ import { UpDown, UpDownWide, waveAnimation } from "../styles/animations"
 import Footer from "./footer"
 import styles from "../styles/override.css";
 // @ts-ignore
-import ContactMDX from "../sections/contact"
+import ContactMDX from "../sections/Contact"
 
 const InnerWave = styled.div`
   path {
