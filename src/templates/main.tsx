@@ -9,8 +9,6 @@ import Skills from "../components/skills"
 import Interests from "../components/interests"
 import Projects from "../components/projects"
 import Contact from "../components/contact"
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
 import styles from "../styles/override.css"
 
 console.log(styles)

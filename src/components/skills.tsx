@@ -7,7 +7,7 @@ import SVG from "./svg"
 import { UpDown, UpDownWide } from "../styles/animations"
 import styles from "../styles/override.css";
 // @ts-ignore
-import SkillsMDX from "../sections/skills"
+import SkillsMDX from "../sections/Skills"
 
 
 const Skills = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
