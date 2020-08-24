@@ -6,9 +6,8 @@ import Content from "../elements/content"
 import SVG from "./svg"
 import { UpDown, UpDownWide } from "../styles/animations"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheck, faAngleRight } from '@fortawesome/free-solid-svg-icons'
-import IconAngularjs from 'react-devicon/angularjs/original-wordmark'
-import styles from "../styles/override.css";
+import { FaCheck, FaAngleRight } from 'react-icons/fa';
+
 // @ts-ignore
 import SkillsMDX from "../sections/Skills"
 
@@ -44,93 +43,92 @@ const Skills = ({ offset, factor = 1 }: { offset: number; factor?: number }) => 
     <Content speed={0.4} offset={offset} factor={factor} className={`content`}>
       <Inner>
         <SkillsMDX />
-        <IconAngularjs width={100} height={100}/>
         <div className="subheading">
           <p>Programming Languages & Tools</p>
 
-          <div>   
-            
-          </div>
-
           <ul className="fa-ul mb-0" style={{fontSize: 1 + "rem"}}>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 Java
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 Kotlin
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 Python
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 Ruby on Rails
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 JavaScript
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 React
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 TypeScript
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 Redis
             </li>
+            <li>                
+                <span className="fa-li"><FaAngleRight /></span>
+                Angular
+            </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 Couchbase
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 Groovy
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 Gradle
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 NoSQL
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 SQL
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 Agile Methodologies
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 Jenkins
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 Kafka
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 Selenium
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 Cloud Technologies
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 CI/CD
             </li>
             <li>
-                <span className="fa-li"><FontAwesomeIcon icon={faAngleRight} /></span>
+                <span className="fa-li"><FaAngleRight /></span>
                 Spring
             </li>
           </ul>
@@ -139,15 +137,15 @@ const Skills = ({ offset, factor = 1 }: { offset: number; factor?: number }) => 
 
           <ul className="fa-ul mb-0" style={{fontSize: 1 + "rem"}}>
               <li>
-                  <span className="fa-li"><FontAwesomeIcon icon={faCheck} /></span>
+                  <span className="fa-li"><FaCheck /></span>
                   Mobile-First, Responsive Design
               </li>
               <li>
-                  <span className="fa-li"><FontAwesomeIcon icon={faCheck} /></span>
+                  <span className="fa-li"><FaCheck /></span>
                   Cross Functional Teams
               </li>
               <li>
-                  <span className="fa-li"><FontAwesomeIcon icon={faCheck} /></span>
+                  <span className="fa-li"><FaCheck /></span>
                   Agile Development, Scrum &amp; Kanban
               </li>
           </ul>
