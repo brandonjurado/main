@@ -37,6 +37,8 @@ module.exports = {
     `gatsby-plugin-theme-ui`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-less`,
     `gatsby-plugin-fontawesome-css`,
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,

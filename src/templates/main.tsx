@@ -10,6 +10,7 @@ import Interests from "../components/interests"
 import Projects from "../components/projects"
 import Contact from "../components/contact"
 import "../styles/override.css"
+import "../styles/scss/styles.scss"
 
 const Main = () => (
   <Layout>

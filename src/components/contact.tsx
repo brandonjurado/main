@@ -7,7 +7,6 @@ import Content from "../elements/content"
 import SVG from "./svg"
 import { UpDown, UpDownWide, waveAnimation } from "../styles/animations"
 import Footer from "./footer"
-import "../styles/override.css";
 // @ts-ignore
 import ContactMDX from "../sections/Contact"
 
