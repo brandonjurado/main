@@ -17,7 +17,7 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
       offset={1.1}
       factor={factor}
     />
-    <Content speed={0.4} offset={offset + 0.2} factor={factor} className={`content`}>
+    <Content speed={0.4} offset={offset + 0.2} factor={factor} className={`resume-section`}>
       <Inner>
         <div
           sx={{

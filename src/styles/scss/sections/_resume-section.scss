@@ -1,4 +1,4 @@
-section.resume-section {
+div.resume-section {
     display: flex;
     align-items: center;
     padding-left: 1rem;
@@ -11,12 +11,12 @@ section.resume-section {
     }
 }
 @include media-breakpoint-up(md) {
-    section.resume-section {
+    div.resume-section {
         min-height: 100vh;
     }
 }
 @include media-breakpoint-up(lg) {
-    section.resume-section {
+    div.resume-section {
         padding-left: 3rem;
         padding-right: 3rem;
         padding-top: 5rem;

@@ -34,7 +34,7 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
         </InnerWave>
       </div>
     </Divider>
-    <Content speed={0.4} offset={offset} factor={factor} className={`content`}>
+    <Content speed={0.4} offset={offset} factor={factor} className={`resume-section`}>
       <Inner>
         <ContactMDX />
       </Inner>
