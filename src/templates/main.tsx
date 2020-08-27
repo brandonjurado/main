@@ -9,18 +9,16 @@ import Skills from "../components/skills"
 import Interests from "../components/interests"
 import Projects from "../components/projects"
 import Contact from "../components/contact"
-import styles from "../styles/override.css"
-
-console.log(styles)
+import "../styles/override.css"
 
 const Main = () => (
   <Layout>
     <Parallax pages={8}>
       <Hero offset={0} factor={1} />
-      <Experience offset={1} factor={2} />
-      <Education offset={3} factor={1} />
-      <Skills offset={4} factor={1} />
-      <Interests offset={5} factor={1} />
+      <Experience offset={1} factor={3} />
+      <Education offset={4} factor={1} />
+      <Skills offset={5} factor={1} />
+      <Interests offset={6} factor={1} />
 
       {/*
         <About offset={1} factor={1} />

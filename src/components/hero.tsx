@@ -5,7 +5,7 @@ import Inner from "../elements/inner"
 import Content from "../elements/content"
 import SVG from "./svg"
 import { UpDown, UpDownWide } from "../styles/animations"
-import styles from "../styles/override.css";
+import "../styles/override.css";
 // @ts-ignore
 import Intro from "../sections/Intro"
 
