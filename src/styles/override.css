@@ -6,6 +6,10 @@
   justify-content: space-between;
 }
 
+.fa-ul > li:last-child {
+  padding-bottom: 1rem !important;
+}
+
 .content {
   display: flex !important;
   flex-direction: column !important;
