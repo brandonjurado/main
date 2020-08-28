@@ -63,10 +63,22 @@ const Skills = ({ offset, factor = 1 }: { offset: number; factor?: number }) => 
                     <i className="devicon-ruby-plain-wordmark colored"></i>
                 </li>
                 <li className="list-inline-item">
-                    <i className="devicon-redis-plain-wordmark colored"></i>
+                    <i className="devicon-angularjs-plain colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-javascript-plain colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-react-original-wordmark colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-typescript-plain colored"></i>
                 </li>
                 <li className="list-inline-item">
                     <i className="devicon-git-plain colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-redis-plain-wordmark colored"></i>
                 </li>
                 <li className="list-inline-item">
                     <i className="devicon-groovy-plain colored"></i>
@@ -75,43 +87,25 @@ const Skills = ({ offset, factor = 1 }: { offset: number; factor?: number }) => 
                     <i className="devicon-css3-plain-wordmark colored"></i>
                 </li>
                 <li className="list-inline-item">
-                    <i className="devicon-javascript-plain colored"></i>
-                </li>
-                <li className="list-inline-item">
-                    <i className="devicon-angularjs-plain colored"></i>
-                </li>
-                <li className="list-inline-item">
                     <i className="devicon-gradle-plain"></i>
-                </li>
-                <li className="list-inline-item">
-                    <i className="devicon-react-original-wordmark colored"></i>
-                </li>
-                <li className="list-inline-item">
-                    <i className="devicon-sass-original colored"></i>
                 </li>
                 <li className="list-inline-item">
                     <i className="devicon-wordpress-plain-wordmark"></i>
                 </li>
                 <li className="list-inline-item">
-                    <i className="devicon-npm-original-wordmark colored"></i>
+                    <i className="devicon-nodejs-plain-wordmark colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-docker-plain-wordmark colored"></i>
                 </li>
                 <li className="list-inline-item">
                     <i className="devicon-bootstrap-plain-wordmark"></i>
                 </li>
                 <li className="list-inline-item">
-                    <i className="devicon-typescript-plain colored"></i>
-                </li>
-                <li className="list-inline-item">
-                    <i className="devicon-docker-plain-wordmark colored"></i>
-                </li>
-
-                <li className="list-inline-item">
                     <i className="devicon-foundation-plain-wordmark colored"></i>
                 </li>
-
                 <li className="list-inline-item">
-                    <i className="devicon-nodejs-plain colored"></i>
-                    <i className="devicon-nodejs-plain-wordmark colored"></i>
+                    <i className="devicon-npm-original-wordmark colored"></i>
                 </li>
             </ul>
 

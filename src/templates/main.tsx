@@ -14,19 +14,19 @@ import "../styles/scss/styles.scss"
 
 const Main = () => (
   <Layout>
-    <Parallax pages={9}>
+    <Parallax pages={10}>
       <Hero offset={0} factor={1} />
       <Experience offset={1} factor={3} />
       <Education offset={4} factor={1} />
       <Skills offset={5} factor={1} />
-      <Interests offset={6.5} factor={1} />
+      <Interests offset={6} factor={1} />
 
       {/*
         <About offset={1} factor={1} />
       */}
 
-      <Projects offset={7} factor={1} />
-      <Contact offset={8} factor={1} />
+      <Projects offset={7} factor={2} />
+      <Contact offset={9} factor={1} />
     </Parallax>
   </Layout>
 )
