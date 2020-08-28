@@ -43,97 +43,126 @@ const Skills = ({ offset, factor = 1 }: { offset: number; factor?: number }) => 
     <Content speed={0.4} offset={offset} factor={factor} className={`resume-section`}>
       <Inner>
         <SkillsMDX />
-        <div className="subheading">
-          <p>Programming Languages & Tools</p>
+        <div className="resume-section-content">
+            <div className="subheading mb-3">Programming Languages & Tools</div>
 
-          <ul className="fa-ul mb-0" style={{fontSize: 1 + "rem"}}>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                Java
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                Kotlin
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                Python
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                Ruby on Rails
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                JavaScript
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                React
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                TypeScript
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                Redis
-            </li>
-            <li>                
-                <span className="fa-li"><FaAngleRight /></span>
-                Angular
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                Couchbase
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                Groovy
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                Gradle
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                NoSQL
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                SQL
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                Agile Methodologies
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                Jenkins
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                Kafka
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                Selenium
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                Cloud Technologies
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                CI/CD
-            </li>
-            <li>
-                <span className="fa-li"><FaAngleRight /></span>
-                Spring
-            </li>
-          </ul>
+            <ul className="list-inline dev-icons">
+                <li className="list-inline-item">
+                    <i className="devicon-java-plain-wordmark"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-python-plain-wordmark colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-html5-plain-wordmark colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-rails-plain-wordmark colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-ruby-plain-wordmark colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-redis-plain-wordmark colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-git-plain colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-groovy-plain colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-css3-plain-wordmark colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-javascript-plain colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-angularjs-plain colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-gradle-plain"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-react-original-wordmark colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-sass-original colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-wordpress-plain-wordmark"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-npm-original-wordmark colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-bootstrap-plain-wordmark"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-typescript-plain colored"></i>
+                </li>
+                <li className="list-inline-item">
+                    <i className="devicon-docker-plain-wordmark colored"></i>
+                </li>
 
-          <p>Workflow</p>
+                <li className="list-inline-item">
+                    <i className="devicon-foundation-plain-wordmark colored"></i>
+                </li>
+
+                <li className="list-inline-item">
+                    <i className="devicon-nodejs-plain colored"></i>
+                    <i className="devicon-nodejs-plain-wordmark colored"></i>
+                </li>
+            </ul>
+
+            <ul className="fa-ul mb-0" style={{fontSize: 1 + "rem"}}>
+                <li>
+                    <span className="fa-li"><FaAngleRight /></span>
+                    Kotlin
+                </li>
+                <li>
+                    <span className="fa-li"><FaAngleRight /></span>
+                    Couchbase
+                </li>
+                <li>
+                    <span className="fa-li"><FaAngleRight /></span>
+                    NoSQL
+                </li>
+                <li>
+                    <span className="fa-li"><FaAngleRight /></span>
+                    SQL
+                </li>
+                <li>
+                    <span className="fa-li"><FaAngleRight /></span>
+                    Agile Methodologies
+                </li>
+                <li>
+                    <span className="fa-li"><FaAngleRight /></span>
+                    Jenkins
+                </li>
+                <li>
+                    <span className="fa-li"><FaAngleRight /></span>
+                    Kafka
+                </li>
+                <li>
+                    <span className="fa-li"><FaAngleRight /></span>
+                    Selenium
+                </li>
+                <li>
+                    <span className="fa-li"><FaAngleRight /></span>
+                    Cloud Technologies
+                </li>
+                <li>
+                    <span className="fa-li"><FaAngleRight /></span>
+                    CI/CD
+                </li>
+                <li>
+                    <span className="fa-li"><FaAngleRight /></span>
+                    Spring
+                </li>
+            </ul>
+
+          <div className="subheading">Workflow</div>
 
           <ul className="fa-ul mb-0" style={{fontSize: 1 + "rem"}}>
               <li>
