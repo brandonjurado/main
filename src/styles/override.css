@@ -71,6 +71,12 @@ h3 {
   color: white !important;
 }
 
+h6:last-child {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  transform: translateY(70%);
+}
+
 .subheading {
   font-family: 'Saira Extra Condensed', sans-serif;
   text-transform: uppercase;
