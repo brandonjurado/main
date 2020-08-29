@@ -10,6 +10,12 @@
   padding-bottom: 1rem !important;
 }
 
+.fa-trophy {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
 .content {
   display: flex !important;
   flex-direction: column !important;

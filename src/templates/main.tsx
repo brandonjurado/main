@@ -14,7 +14,7 @@ import "../styles/scss/styles.scss"
 
 const Main = () => (
   <Layout>
-    <Parallax pages={10}>
+    <Parallax pages={11}>
       <Hero offset={0} factor={1} />
       <Experience offset={1} factor={3} />
       <Education offset={4} factor={1} />
@@ -25,8 +25,8 @@ const Main = () => (
         <About offset={1} factor={1} />
       */}
 
-      <Projects offset={7} factor={2} />
-      <Contact offset={9} factor={1} />
+      <Projects offset={8} factor={1} />
+      <Contact offset={10} factor={1} />
     </Parallax>
   </Layout>
 )
