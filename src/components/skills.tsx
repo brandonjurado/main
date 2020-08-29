@@ -5,7 +5,6 @@ import Inner from "../elements/inner"
 import Content from "../elements/content"
 import SVG from "./svg"
 import { UpDown, UpDownWide } from "../styles/animations"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { FaCheck, FaAngleRight } from 'react-icons/fa';
 
 // @ts-ignore

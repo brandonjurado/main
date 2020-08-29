@@ -7,6 +7,7 @@ import SVG from "./svg"
 import { UpDown, UpDownWide } from "../styles/animations"
 // @ts-ignore
 import ProjectsMDX from "../sections/projects"
+import ExtraProjectsMDX from "../sections/extra-projects"
 
 const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) => (
   <div>
@@ -29,6 +30,7 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
         >
           <ProjectsMDX />
         </div>
+        <ExtraProjectsMDX/>
       </Inner>
     </Content>
     <Divider speed={0.1} offset={offset} factor={factor}>
