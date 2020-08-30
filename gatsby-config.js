@@ -39,6 +39,7 @@ module.exports = {
     `gatsby-plugin-netlify`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-less`,
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-fontawesome-css`,
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,

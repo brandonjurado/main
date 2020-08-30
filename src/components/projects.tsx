@@ -21,6 +21,7 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
     <Content speed={0.4} offset={offset + 0.2} factor={factor} className={`resume-section`}>
       <Inner>
         <div
+          id='projects'
           sx={{
             display: `grid`,
             gridGap: [4, 4, 4, 5],

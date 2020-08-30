@@ -11,10 +11,12 @@ import Projects from "../components/projects"
 import Contact from "../components/contact"
 import "../styles/override.css"
 import "../styles/scss/styles.scss"
+import { Header } from '../components/Header';
 
 const Main = () => (
   <Layout>
     <Parallax pages={12}>
+      {/* <Header /> */}
       <Hero offset={0} factor={1} />
       <Experience offset={1} factor={4} />
       <Education offset={4} factor={1} />
