@@ -42,7 +42,7 @@ const Skills = ({ offset, factor = 1 }: { offset: number; factor?: number }) => 
     <Content speed={0.4} offset={offset} factor={factor} className={`resume-section`}>
       <Inner>
         <SkillsMDX />
-        <div className="resume-section-content">
+        <div className="resume-section-content" id="skills">
             <div className="subheading mb-3">Programming Languages & Tools</div>
 
             <ul className="list-inline dev-icons">

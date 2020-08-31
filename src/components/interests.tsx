@@ -38,7 +38,9 @@ const Interests = ({ offset, factor = 1 }: { offset: number; factor?: number }) 
     </Divider>
     <Content speed={0.4} offset={offset} factor={factor} className={`resume-section`}>
       <Inner>
-        <InterestsMDX />
+        <div id="interests">
+          <InterestsMDX />
+        </div>
       </Inner>
     </Content>
   </div>

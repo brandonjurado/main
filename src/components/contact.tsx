@@ -36,7 +36,9 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
     </Divider>
     <Content speed={0.4} offset={offset} factor={factor} className={`resume-section`}>
       <Inner>
-        <ContactMDX />
+        <div id="contact">
+          <ContactMDX />
+        </div>
       </Inner>
       <Footer />
     </Content>

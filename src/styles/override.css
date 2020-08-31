@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Saira+Extra+Condensed&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 .flexBox {
   display: flex;
   flex-direction: column;
