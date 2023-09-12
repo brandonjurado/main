@@ -2,7 +2,6 @@ import React from "react"
 import { Parallax } from "react-spring/renderprops-addons.cjs"
 import Layout from "../components/layout"
 import Hero from "../components/hero"
-import About from "../components/about"
 import Experience from "../components/experience"
 import Education from "../components/education"
 import Skills from "../components/skills"
@@ -22,10 +21,6 @@ const Main = () => (
       <Education offset={4} factor={1} />
       <Skills offset={5} factor={1} />
       <Interests offset={6} factor={1} />
-
-      {/*
-        <About offset={1} factor={1} />
-      */}
 
       <Projects offset={8} factor={2} />
       <Contact offset={11} factor={1} />
